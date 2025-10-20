@@ -30,7 +30,7 @@ CODE = (environ.get('CODE', 'https://t.me/ak_backup_72/8'))
 
 #stream link shortner
 STREAM_SITE = (environ.get('STREAM_SITE', 'indiaearnx.com'))
-STREAM_API = (environ.get('STREAM_API', 'dd3251ded7e83b0000b0f7a21afa330b498f608a'))
+STREAM_API = (environ.get('STREAM_API', '06153267d49460f502bbd3c65c862e596454a6e3'))
 STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/ak_backup_72/6'))
 
 # Admins, Channels & Users
@@ -58,7 +58,7 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 # Others
 VERIFY = bool(environ.get('VERIFY', False))
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'indiaearnx.com')
-SHORTLINK_API = environ.get('SHORTLINK_API', 'dd3251ded7e83b0000b0f7a21afa330b498f608a')
+SHORTLINK_API = environ.get('SHORTLINK_API', '06153267d49460f502bbd3c65c862e596454a6e3')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "5")
